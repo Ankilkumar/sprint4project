@@ -44,4 +44,5 @@ else:
 df1_low_value = df1_low_value.groupby(['year', 'month'], as_index=False).mean()
 df1_low_value['monthly'] = pd.to_datetime(df1_low_value[['year', 'month']].assign(DAY = 1))
 
-fig = px.scatter(df1_low_value, x = 'monthly', y = 'sale_amount')
+graph2 = px.scatter(df1_low_value, x = 'monthly', y = 'sale_amount')
+st.write(graph2)
