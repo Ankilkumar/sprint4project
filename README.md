@@ -6,6 +6,15 @@ The tasks are: creating and managing python virtual environments, developing a w
 
 Data
 
+Dataset was taken form following website:
+https://catalog.data.gov/dataset/real-estate-sales-2001-2018
+
+The data was then reduced with following conditions:
+
+1. Commercial properties was removed
+2. Only columns listed below were kept since they were most relevent to analysis being performed
+3. All null values were removed since it cannot be determined which property type was null value
+
 Real_Estate_Sales_2001_2020
 
 list_year:          year property was listed
