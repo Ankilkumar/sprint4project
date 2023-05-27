@@ -33,3 +33,10 @@ Following analysis were done on data:
 The results can be found on following site:
 
 https://real-estate-sales-connecticut-2001-2020.onrender.com
+
+
+Instruction on how to run the app locally:
+
+1. Pull latest version of the repository.
+2. Run "streamlit run app.py" from root directory of repository. If you dont have streamlit installed, run "pip install streamlist" before running the app.py using streamlit.
+3. If displayed link doesn't open the web app, enter "http://0.0.0.0:10000/" in your browser to see the result of the app.
